@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background: url("https://img.freepik.com/free-vector/background-line-abstract-gradient-design_483537-2557.jpg?t=st=1727104402~exp=1727108002~hmac=989b6622630cbe3b95e40cd889bda5a0add1e5376ca278077c178286d3dcca96&w=1060");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container{
+  width: 600px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+header{
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  color:crimson;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.container .content{
+  margin: 35px 0;
+}
+.quote-content{
+  display: flex;
+  justify-content: center;
+
+}
+.quote-content i{
+font-size: 1rem;
+}
+.quote-content i:first-child{
+  margin: 3px 10px 0 0;
+}
+.quote-content i:last-child{
+  margin: 0 0 3px 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.quote{
+  font-size: 1.35rem;
+  text-align: center;
+  word-break: break-all;
+  font-weight: 600;
+
+}
+.content .author{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 1.25rem;
+}
+.author span:first-child{
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
+.container .buttons{
+  border-top: 1px solid black;
+}
+
+
+
+.btn{
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 13px 22px;
+  border-radius: 30px;
+  background: #f72585;
+  margin-top: 5px;
+  margin-left: 35%;
+}
